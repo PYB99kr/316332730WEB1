@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Fuente1;
+    src: url(./Fuentes/Font1.otf);
+}
+
+@font-face {
+    font-family: Fuente2;
+    src: url(./Fuentes/Font2.ttf);
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(215,20,185,0.9332107843137255) 36%, rgba(16,246,232,1) 79%);
+    background-size: 100%;
+}
+
+.fuente1{
+    font-family: Fuente1;
+}
+
+.fuente2{
+    font-family: Fuente2;
+}
