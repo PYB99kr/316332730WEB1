@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Fuente1;
+    src: url(./Fuentes/Font1.otf);
+}
+
+@font-face {
+    font-family: Fuente2;
+    src: url(./Fuentes/Font2.otf);
+}
+
+@font-face {
+    font-family: Fuente3;
+    src: url(./Fuentes/Font3.otf);
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(215,20,185,0.9332107843137255) 36%, rgba(16,246,232,1) 79%);
+    background-size: 100%;
+    padding: 4em;
+    font-family: serif;
+}
+
+.fondoblanco{
+    background-color: rgba(62, 199, 223, 0.788);
+}
+
+.bordeblanco{
+    border: 20px solid greenyellow;
+    border-radius: 15px;
+}
+
+.lista{
+    font-family: Fuente1;
+    font-size: 35px;
+    padding-right: 30px;
+    color: white;
+}
+.imagenEstilo{
+    width: 100px;
+    text-align: center;
+}
+
+.textoFooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom: 1em;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.parrafoFooter{
+   margin: 0px;
+   font-size: 50px;
+   font-family:'Fuente3' ;
+}
+.titulo{
+    font-family: Fuente2;
+    font-size: 65px;
+}
+.subtitulo{
+    text-align:center;
+    font-family: 'Fuente3';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.imagenFondo{
+    background-image: url(Media/AragonBlack.png);
+    padding: 20px;
+    margin-left: 1%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 6em;
+}
